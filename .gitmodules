@@ -1,0 +1,3 @@
+[submodule "babier-v-zmk"]
+	path = babier-v-zmk
+	url = git@github.com:dixls/babier-v-zmk.git

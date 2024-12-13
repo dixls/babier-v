@@ -7,8 +7,7 @@ others.
 
 Babier-V is currently very early in the design and protyping phase.
 
-TODO:
-
+### TODO:
 - [X] Draft pro-micro based pcb
 - [X] order pcb prototypes
 - [X] draft zmk firmware
@@ -20,8 +19,7 @@ TODO:
 - [ ] design printable case
 
 
-Future?:
-
+### Future?:
 - [ ] Design integrated pcb
 - [ ] Design integrated wireless pcb?
 - [ ] Design case for cnc

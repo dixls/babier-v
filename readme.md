@@ -1,8 +1,16 @@
 # Babier-V
 
+![pcb preview](resources/pcb-preview.png)
+
 This is a 34 key unibody split keyboard called the Babier-V, inspired by the
 Baby-V and the Vixen by eyeohdesigns, as well as ~30% boards like le Chiffre and
 others.
+
+### Layout
+
+![kle](resources/kle.png)
+
+you can find the KLE json in [babier-v.json](babier-v.json).
 
 
 Babier-V is currently very early in the design and protyping phase.

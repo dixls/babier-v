@@ -19,11 +19,13 @@ Babier-V is currently very early in the design and protyping phase.
 - [X] Draft pro-micro based pcb
 - [X] order pcb prototypes
 - [X] draft zmk firmware
-- [ ] finish initial zmk firmware
+- [X] finish initial zmk firmware
+    - it compiles fully, but is still untested
+- [ ] implement proper keymap in zmk
 - [ ] design plate
 - [ ] print plate
 - [ ] assemble prototype
-- [ ] ensure zmk firmware is working as expected
+- [ ] test firmware
 - [ ] design printable case
 
 

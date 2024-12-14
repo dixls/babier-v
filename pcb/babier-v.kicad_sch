@@ -339,19 +339,11 @@
 				)
 			)
 		)
-		(symbol "PCM_marbastlib-promicroish:Elite-C"
+		(symbol "PCM_marbastlib-promicroish:Liatris"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Elite-C"
 				(at 0 20.32 0)
 				(effects
 					(font
@@ -359,7 +351,15 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_marbastlib-xp-promicroish:Elite-C_ACH"
+			(property "Value" "Liatris"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-xp-promicroish:Liatris_AH_USBup"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -377,7 +377,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Symbol for an Elite-C"
+			(property "Description" "Symbol for a Splitkb Liatris"
 				(at 0 0 0)
 				(effects
 					(font
@@ -386,11 +386,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Elite-C_0_0"
+			(symbol "Liatris_0_0"
 				(pin bidirectional line
 					(at -12.7 13.97 0)
 					(length 2.54)
-					(name "D3-TX"
+					(name "P0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -408,7 +408,7 @@
 				(pin bidirectional line
 					(at -12.7 -8.89 0)
 					(length 2.54)
-					(name "E6"
+					(name "P7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -426,7 +426,7 @@
 				(pin bidirectional line
 					(at -12.7 -11.43 0)
 					(length 2.54)
-					(name "B4"
+					(name "P8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -444,7 +444,7 @@
 				(pin bidirectional line
 					(at -12.7 -13.97 0)
 					(length 2.54)
-					(name "B5"
+					(name "P9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -498,7 +498,7 @@
 				(pin bidirectional line
 					(at 12.7 3.81 180)
 					(length 2.54)
-					(name "F4"
+					(name "P29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -516,7 +516,7 @@
 				(pin bidirectional line
 					(at 12.7 1.27 180)
 					(length 2.54)
-					(name "F5"
+					(name "P28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -534,7 +534,7 @@
 				(pin bidirectional line
 					(at 12.7 -1.27 180)
 					(length 2.54)
-					(name "F6"
+					(name "P27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -552,7 +552,7 @@
 				(pin bidirectional line
 					(at -12.7 11.43 0)
 					(length 2.54)
-					(name "D2-RX"
+					(name "P1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,7 +570,7 @@
 				(pin bidirectional line
 					(at 12.7 -3.81 180)
 					(length 2.54)
-					(name "F7"
+					(name "P26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -588,7 +588,7 @@
 				(pin bidirectional line
 					(at 12.7 -6.35 180)
 					(length 2.54)
-					(name "B1"
+					(name "P22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -606,7 +606,7 @@
 				(pin bidirectional line
 					(at 12.7 -8.89 180)
 					(length 2.54)
-					(name "B3"
+					(name "P20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -624,7 +624,7 @@
 				(pin bidirectional line
 					(at 12.7 -11.43 180)
 					(length 2.54)
-					(name "B2"
+					(name "P23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -642,7 +642,7 @@
 				(pin bidirectional line
 					(at 12.7 -13.97 180)
 					(length 2.54)
-					(name "B6"
+					(name "P21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -696,7 +696,7 @@
 				(pin bidirectional line
 					(at -12.7 3.81 0)
 					(length 2.54)
-					(name "D1"
+					(name "P2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -714,7 +714,7 @@
 				(pin bidirectional line
 					(at -12.7 1.27 0)
 					(length 2.54)
-					(name "D0"
+					(name "P3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -732,7 +732,7 @@
 				(pin bidirectional line
 					(at -12.7 -1.27 0)
 					(length 2.54)
-					(name "D4"
+					(name "P4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -750,7 +750,7 @@
 				(pin bidirectional line
 					(at -12.7 -3.81 0)
 					(length 2.54)
-					(name "C6"
+					(name "P5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -768,7 +768,7 @@
 				(pin bidirectional line
 					(at -12.7 -6.35 0)
 					(length 2.54)
-					(name "D7"
+					(name "P6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -784,11 +784,11 @@
 					)
 				)
 			)
-			(symbol "Elite-C_1_0"
-				(pin bidirectional line
+			(symbol "Liatris_1_0"
+				(pin power_out line
 					(at 12.7 13.97 180)
 					(length 2.54)
-					(name "B0"
+					(name "VA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -824,7 +824,7 @@
 				(pin bidirectional line
 					(at -5.08 -19.05 90)
 					(length 2.54)
-					(name "B7"
+					(name "P12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -842,7 +842,7 @@
 				(pin bidirectional line
 					(at -2.54 -19.05 90)
 					(length 2.54)
-					(name "D5"
+					(name "P13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -860,7 +860,7 @@
 				(pin bidirectional line
 					(at 0 -19.05 90)
 					(length 2.54)
-					(name "C7"
+					(name "P14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -878,7 +878,7 @@
 				(pin bidirectional line
 					(at 2.54 -19.05 90)
 					(length 2.54)
-					(name "F1"
+					(name "P15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -896,7 +896,7 @@
 				(pin bidirectional line
 					(at 5.08 -19.05 90)
 					(length 2.54)
-					(name "F0"
+					(name "P16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -911,28 +911,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 16.51 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "Elite-C_1_1"
+			(symbol "Liatris_1_1"
 				(rectangle
-					(start -10.16 19.05)
+					(start -10.16 16.51)
 					(end 10.16 -16.51)
 					(stroke
 						(width 0)
@@ -1951,6 +1933,7 @@
 	)
 	(label "F6"
 		(at 62.23 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1972,6 +1955,7 @@
 	)
 	(label "D7"
 		(at 36.83 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1993,6 +1977,7 @@
 	)
 	(label "F5"
 		(at 62.23 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2014,6 +1999,7 @@
 	)
 	(label "B2"
 		(at 62.23 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2035,6 +2021,7 @@
 	)
 	(label "D4"
 		(at 36.83 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2045,6 +2032,7 @@
 	)
 	(label "B3"
 		(at 62.23 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2055,6 +2043,7 @@
 	)
 	(label "D0"
 		(at 36.83 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2065,6 +2054,7 @@
 	)
 	(label "D1"
 		(at 36.83 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2086,6 +2076,7 @@
 	)
 	(label "B6"
 		(at 62.23 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2096,6 +2087,7 @@
 	)
 	(label "B1"
 		(at 62.23 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2150,6 +2142,7 @@
 	)
 	(label "F7"
 		(at 62.23 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2182,6 +2175,7 @@
 	)
 	(label "E6"
 		(at 36.83 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2192,6 +2186,7 @@
 	)
 	(label "C6"
 		(at 36.83 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2235,6 +2230,7 @@
 	)
 	(label "F4"
 		(at 62.23 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4285,7 +4281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-promicroish:Elite-C")
+		(lib_id "PCM_marbastlib-promicroish:Liatris")
 		(at 49.53 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4295,14 +4291,6 @@
 		(fields_autoplaced yes)
 		(uuid "71caba3a-d06b-4cab-800a-be47cc70a571")
 		(property "Reference" "U1"
-			(at 49.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Elite-C"
 			(at 49.53 35.56 0)
 			(effects
 				(font
@@ -4310,7 +4298,15 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:Elite-C_ACH"
+		(property "Value" "Liatris"
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-promicroish:Liatris_AH_USBup"
 			(at 49.53 87.63 0)
 			(effects
 				(font
@@ -4328,7 +4324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Symbol for an Elite-C"
+		(property "Description" "Symbol for a Splitkb Liatris"
 			(at 49.53 57.15 0)
 			(effects
 				(font
@@ -4354,9 +4350,6 @@
 		)
 		(pin "29"
 			(uuid "932fefb3-f1d9-4f3a-b3a0-889b5ea05d69")
-		)
-		(pin "30"
-			(uuid "3d7229f8-ccba-4082-b714-67bb0afc99db")
 		)
 		(pin "14"
 			(uuid "1f92fc5b-5913-406e-b109-153ee2041520")
